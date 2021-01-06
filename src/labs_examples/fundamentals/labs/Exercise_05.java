@@ -42,7 +42,6 @@ public class Exercise_05 {
         System.out.println("Substring of str hello! first 4 chars is " + substring);
         System.out.println("Is there an string ello in the main string? Answer: " + isItHere);
         System.out.println("The location where 'e' is located is numbered: " + location);
-
     }
 
 
