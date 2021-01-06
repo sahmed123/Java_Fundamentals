@@ -25,5 +25,14 @@ public class Exercise_02 {
 
         // write code here
 
+        //There is added precision in the final result with the inclusion of a decimal place
+        int initial = 10;
+        double initD = initial;
+        System.out.println("The value of initD is " + initD);
+
+        //There is a loss of precision by dropping the .5 when converting from double to int
+        double doubleVal = 10.5;
+        int narrow = (int) doubleVal;
+        System.out.println("The value of narrow is " + narrow);
     }
 }
