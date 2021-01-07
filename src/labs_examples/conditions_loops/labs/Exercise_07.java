@@ -13,14 +13,26 @@ package labs_examples.conditions_loops.labs;
  *
  */
 
+/** Want to have a string of vowels as a reference to check against
+ *  Use length() to create a loop max = to length of the word being passed in
+ *  Use charAt() to pull the char value at a given location; use with loop value to log
+ *  Use indexOf() to return the position of the first match of what you're checking against
+ */
+
 public class Exercise_07 {
+
+    static String vowels = "aeiou";
+
     public static void main (String[] args){
         findVowel("dog");
     }
 
     public static void findVowel(String input){
 
-        int wordlength = input.length();
+        int vowelTraversal = 0;
 
+        while(vowelTraversal < input.length()){
+            //Go through the word, move up one
+        }
     }
 }
