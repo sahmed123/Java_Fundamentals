@@ -5,29 +5,45 @@ import java.util.Locale;
 
 public class sandbox {
     public static void main (String[] args){
-        String str1 = "Hello String 1!";
-        String str2 = "Hello String 1!";
+        int i = 7;
 
-        //String concatenation
-        System.out.println("Here is the first part " + "and here is the second!");
+        switch(i){
+            case 0:
+                System.out.println("i is 0");
+                break;
+            case 1:
+                System.out.println("i is 1");
+                break;
+            case 2:
+                System.out.println("i is 2");
+                break;
+            case 3:
+                System.out.println("i is 3");
+                break;
+            case 4:
+                System.out.println("i is 4");
+                break;
+            case 5:
+                System.out.println("i is 5");
+                break;
+            default:
+                System.out.println("default was hit");
+                break;
+        }
 
-        //Method to figure out the length of a given string
-        System.out.println("The length of the string is " + str1.length());
+        String str = "gold";
 
-        //Boolean check as to whether the two strings are the same
-        boolean sameString = str1.equalsIgnoreCase(str2);
-        System.out.println("Are the strings the same? Answer: " + sameString);
+        System.out.println("Your membership gives you access to the following levels");
+        // No break statements; cascading effect to go through each subsequent case
+        switch(str){
+            case "gold":
+                System.out.println("gold level");
+            case "silver":
+                System.out.println("silver level");
+            case "bronze":
+                System.out.println("bronze level");
 
-        //Using substring method to display part of a given string
-        String fragment = str1.substring(8,12);
-        System.out.println("The substring section is: " + fragment);
-
-        //Utilizing the charAt() method to return the char at a given location on the string
-        char letterLocation = str1.charAt(8);
-        System.out.println("The character at position 8 on string str1 is " + letterLocation);
-
-        //Using toUpperCase() and toLowerCase() to test and view strings converted to each display
-        System.out.println("str1 in uppercase looks like: " + str1.toUpperCase());
-        System.out.println("str2 in lowercase looks like: " + str2.toLowerCase());
+        }
+        System.out.println("Finished running the switch statement");
     }
 }
