@@ -14,4 +14,13 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_07 {
+    public static void main (String[] args){
+        findVowel("dog");
+    }
+
+    public static void findVowel(String input){
+
+        int wordlength = input.length();
+
+    }
 }
