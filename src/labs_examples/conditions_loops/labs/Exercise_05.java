@@ -16,4 +16,20 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_05 {
+    public static void main(String[] args){
+        calculateBounds(1, 5);
+    }
+
+    public static void calculateBounds (int x, int y){
+        int sum = x;
+        double avg = 0.0;
+
+        for(int i = x; i < y; i++){
+            sum += sum;
+            avg = sum/y;
+        }
+
+        System.out.println("The sum of numbers from " + x + " to " + y + " are: " + sum);
+        System.out.println("The average of numbers from " + x + " to " + y + " are: " + avg);
+    }
 }
