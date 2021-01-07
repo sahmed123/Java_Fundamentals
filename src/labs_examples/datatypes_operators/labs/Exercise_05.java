@@ -17,7 +17,7 @@ class LogicalOperators {
 
         //Example of OR
         if (a | b){
-		B
+
             System.out.println("a or b is true");
         }
 
@@ -29,7 +29,6 @@ class LogicalOperators {
         //Example of &&
         if(a == true && c == true){
             System.out.println("short-circuit && evaluates to true");
-	    B
         }
 
         //Example of ||
@@ -37,8 +36,6 @@ class LogicalOperators {
             System.out.println("One of a or b are true");
         }
 
-	//B
-	//B
         //Example of ^
         if(a ^ b){
             System.out.println("One of a or b is true, but not both of them");

@@ -17,19 +17,22 @@ package labs_examples.conditions_loops.labs;
 
 public class Exercise_05 {
     public static void main(String[] args){
-        calculateBounds(1, 5);
+
+        calculateBounds(1, 100 );
     }
 
-    public static void calculateBounds (int x, int y){
-        int sum = x;
+    public static void calculateBounds (int lower, int upper){
+        double sum = 0;
         double avg = 0.0;
 
-        for(int i = x; i < y; i++){
-            sum += sum;
-            avg = sum/y;
+        for(int i = lower; i <= upper; i++){
+            sum += i;
+            //System.out.println(sum);
         }
 
-        System.out.println("The sum of numbers from " + x + " to " + y + " are: " + sum);
-        System.out.println("The average of numbers from " + x + " to " + y + " are: " + avg);
+        avg = sum/upper;
+
+        System.out.println("The sum of numbers from " + lower + " to " + upper + " are: " + sum);
+        System.out.println("The average of numbers from " + lower + " to " + upper + " are: " + avg);
     }
 }
