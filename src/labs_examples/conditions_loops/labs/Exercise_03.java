@@ -14,7 +14,7 @@ public class Exercise_03 {
     }
 
     public static void monthDisplay(int monthNum){
-
+        //Utilizing a switch statement to display Months that are passed in to this method
         switch(monthNum) {
             case 1:
                 System.out.println("January");
