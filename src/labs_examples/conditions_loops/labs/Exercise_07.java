@@ -13,10 +13,14 @@ package labs_examples.conditions_loops.labs;
  *
  */
 
-/** Want to have a string of vowels as a reference to check against
- *  Use length() to create a loop max = to length of the word being passed in
- *  Use charAt() to pull the char value at a given location; use with loop value to log
- *  Use indexOf() to return the position of the first match of what you're checking against
+/**   Want to have a string of vowels as a reference to check against --> "aeiou"
+ *    Use length() to create a loop max var = to length of the word being passed in
+ *    Use charAt() to pull the char value at a given location; use with loop value to log
+ *    Use indexOf() to return the position of the first match of what you're checking against
+ *
+ *    Iterate through an input string checking if the character at a given position matches ANY of the characters
+ *    in our reference string. If you hit a match, then return both the vowel that was matched up with and the
+ *    input string. Exit the loop.
  */
 
 public class Exercise_07 {
@@ -29,10 +33,18 @@ public class Exercise_07 {
 
     public static void findVowel(String input){
 
-        int vowelTraversal = 0;
+        int i = 0; //counter as we traverse across the inputted word
+        char firstVowel = ' '; // placeholder for the first vowel that we run into
+        char currentLetter = ' '; // keep track of the current letter that you're comparing
 
-        while(vowelTraversal < input.length()){
-            //Go through the word, move up one
+        while(i < input.length()){
+            currentLetter = input.charAt(i); //set current letter check to char at index i
+
+
+            i++;
         }
+
+        System.out.println("The submitted word was + " + input + " and the first vowel is ");
+                            + firstVowel);
     }
 }
