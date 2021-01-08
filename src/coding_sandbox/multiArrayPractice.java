@@ -18,6 +18,6 @@ public class multiArrayPractice {
                 System.out.print(twoDim[i][j] + " - ");
             }
             System.out.println();
-        } 
+        }
     }
 }
