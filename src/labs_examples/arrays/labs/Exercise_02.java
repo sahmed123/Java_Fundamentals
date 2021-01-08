@@ -1,4 +1,5 @@
 package labs_examples.arrays.labs;
+import java.util.Scanner;
 
 /**
  *  More labs_examples.arrays
@@ -14,7 +15,17 @@ public class Exercise_02 {
 
         int[] array = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
 
-        // write code here
+        System.out.println("Please enter a number from 1-10: ");
+        Scanner scanner = new Scanner(System.in);
+
+        int storedNumber = scanner.nextInt();
+
+        for(int i = 0; i < array.length; i++){
+            if(array[i] == storedNumber){
+                System.out.println("The index where " + storedNumber + " is located is: index " + i);
+            }
+        }
+        // Where should I put an error msg in case the user inputs a number that isn't in the array?
 
 
     }
