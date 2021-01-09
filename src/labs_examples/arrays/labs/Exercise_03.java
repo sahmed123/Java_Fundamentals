@@ -18,8 +18,8 @@ package labs_examples.arrays.labs;
 public class Exercise_03 {
 
     public static void main(String[] args) {
-        int[][] twoDimArray = new int[5][5];
-        int threeMults = 3;
+        int[][] twoDimArray = new int[5][5]; //initialize two dimensions 5 x 5 array
+        int threeMults = 3; //first multiple of 3
 
         for(int i = 0; i < twoDimArray.length; i++){
             for(int j = 0; j < twoDimArray[i].length; j++){

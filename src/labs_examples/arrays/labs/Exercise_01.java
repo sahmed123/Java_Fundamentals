@@ -16,10 +16,10 @@ public class Exercise_01 {
 
         Scanner scanner = new Scanner(System.in);
 
-        //System.out.println("Please enter total # of numbers that will be input ");
-        //int numScanned = scanner.nextInt();
+        System.out.println("Please enter total # of numbers that will be input: ");
+        int numScanned = scanner.nextInt();
 
-        int[] storedNums = new int[10];
+        int[] storedNums = new int[numScanned];
         int sum = 0;
 
         System.out.println("Enter the numbers that will be summed up: ");

@@ -1,5 +1,7 @@
 package labs_examples.arrays.labs;
 
+import java.util.ArrayList;
+
 /**
  *  ArrayLists
  *
@@ -10,4 +12,33 @@ package labs_examples.arrays.labs;
  *
  */
 public class Exercise_07 {
+    public static void main (String[] args){
+
+        ArrayList<String> bballTeams = new ArrayList<String>();
+
+        bballTeams.add("Lakers");
+        bballTeams.add("Mavericks");
+        bballTeams.add("Clippers");
+        bballTeams.add("Celtics");
+
+        System.out.println(bballTeams);
+
+        System.out.println("Are the Bucks currently in the list? " + bballTeams.contains("Bucks"));
+        System.out.println("Are the Celtics currently in the list? " + bballTeams.contains("Celtics"));
+
+        bballTeams.remove("Celtics");
+        bballTeams.add("Bucks");
+
+        System.out.println(bballTeams);
+
+        System.out.println("Are the Bucks currently in the list? " + bballTeams.contains("Bucks"));
+        System.out.println("Are the Celtics currently in the list? " + bballTeams.contains("Celtics"));
+
+        bballTeams.remove(2);
+        System.out.println(bballTeams);
+
+        bballTeams.clear();
+
+        System.out.println("Is the ArrayList now empty? " + bballTeams.isEmpty());
+    }
 }

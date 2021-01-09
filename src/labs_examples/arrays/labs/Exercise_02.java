@@ -20,13 +20,15 @@ public class Exercise_02 {
 
         int storedNumber = scanner.nextInt();
 
+        if(storedNumber > 10 | storedNumber < 1){
+            System.out.println("The number you have entered is outside of range. Please try again.");
+            return;
+        } //catch any incorrect inputs from user
+
         for(int i = 0; i < array.length; i++){
             if(array[i] == storedNumber){
                 System.out.println("The index where " + storedNumber + " is located is: index " + i);
             }
         }
-        // Where should I put an error msg in case the user inputs a number that isn't in the array?
-
-
     }
 }
