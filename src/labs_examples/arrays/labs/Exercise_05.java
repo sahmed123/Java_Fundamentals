@@ -18,12 +18,15 @@ package labs_examples.arrays.labs;
 public class Exercise_05 {
     public static void main (String[] args){
 
-        String[] animals = {"cat", "dog", "frog", "horse", "fish", "hamster"};
+        String[] animals = {"cat", "dog", "frog", "horse", "fish", "hamster", "monster"};
+        boolean lastNumPrinted = false;
 
         for(int i = 0; i < animals.length; i++){
-
+            if(lastNumPrinted == false){
+                System.out.println(animals[(animals.length - 1) - i]);
+                lastNumPrinted = true;
+            }else
+                lastNumPrinted = false;
         }
-
     }
-
 }
