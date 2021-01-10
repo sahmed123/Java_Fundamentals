@@ -1,4 +1,4 @@
-package coding_sandbox;
+package labs_examples.classes;
 
 /**
  *
@@ -9,12 +9,18 @@ package coding_sandbox;
 public class Person {
 
     // instance variables - each object of this class type gets a copy
-    int age;
-    double height;
-    String name;
+     int age;
+     double height;
+     String name;
 
     // constructors
-    // ...
+    public Person(){};
+
+    public Person(int age, double height, String name){
+        this.age = age;
+        this.name = name;
+        this.height = height;
+    }
 
     // methods
     // ...
