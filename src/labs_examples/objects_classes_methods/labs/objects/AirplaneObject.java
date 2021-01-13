@@ -2,6 +2,8 @@ package labs_examples.objects_classes_methods.labs.objects;
 
 /**
  * Lab Assignment on building an Airplane Object modeled off the CarExample.java
+ *
+ * Build and Airplane Class with 3-4 classes and a few primitives
  */
 
 public class AirplaneObject {
