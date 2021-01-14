@@ -7,9 +7,12 @@ package labs_examples.objects_classes_methods.labs.StudentController;
  */
 
 public class Student {
+
+    //Set variables
     private String rollNo;
     private String name;
 
+    //The set and get methods allow you to assign values to this object and also return them
     public String getRollNo(){
         return rollNo;
     }

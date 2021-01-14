@@ -7,6 +7,8 @@ package labs_examples.objects_classes_methods.labs.StudentController;
  * worked upon within the Model. All the view exists to do is return what is asked of it via Controller
  */
 public class StudentView {
+
+    //Just a simple print method that will output the data in a consistent format
     public void printStudentDetails(String studentName, String studentRollNo){
         System.out.println("Student: ");
         System.out.println("Name: " + studentName);
