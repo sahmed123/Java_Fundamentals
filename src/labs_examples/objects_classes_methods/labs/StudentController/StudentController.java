@@ -1,5 +1,11 @@
 package labs_examples.objects_classes_methods.labs.StudentController;
 
+/**
+ * The Controller calls the Model to perform Logic accordingly and the the View to display results
+ *
+ * This is the main area where requests are made
+ */
+
 public class StudentController {
     private Student model;
     private StudentView view;

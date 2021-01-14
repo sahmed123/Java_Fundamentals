@@ -1,5 +1,9 @@
 package labs_examples.objects_classes_methods.labs.StudentController;
 
+/**
+ * Full MVC program
+ */
+
 public class MVC {
     public static void main (String[] args){
 
