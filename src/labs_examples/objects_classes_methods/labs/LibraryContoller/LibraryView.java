@@ -11,5 +11,6 @@ public class LibraryView {
         System.out.println("Title: " + mangaTitle);
         System.out.println("Volume: " + mangaVolume);
         System.out.println("Author: " + mangaAuthor);
+        System.out.println();
     }
 }

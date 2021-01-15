@@ -29,7 +29,7 @@ public class MangaVolume {
     }
 
     public String getAuthor(){
-        return volume;
+        return author;
     }
 
     public void setAuthor(String author){
